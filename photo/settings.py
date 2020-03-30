@@ -25,7 +25,7 @@ SECRET_KEY = '=2cvkc#fr_aeqiu7s$1a)sx&o(slrb6v^cuncqzyxnar%uw=mk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'photo.urls'
+ROOT_URLCONF = 'photo.myurls'
 
 TEMPLATES = [
     {
