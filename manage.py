@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+// mandeep singa
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'photo.settings')
     try:
